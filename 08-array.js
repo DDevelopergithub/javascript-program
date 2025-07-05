@@ -20,10 +20,21 @@ console.log(`==========================`);
  for (let index =0; index < vegetables.length;index++){
     const element = vegetables [index];
     console.log(`${element}`);
-    
+    }  
 
- }  
+ console.log(`=============set==================`);
+const array_number = [1,2,3,4,6,4,6,88,9,4,3,11,46,4,1];
+const array_new = [...new Set(array_number)];
+console.log(array_new);
 
+console.log(`================map==================`);
+
+const map_name=["poonam","kajal","tejal","prajkta","Rupali", "poonam","Geeta,"];
+const name_new = [...new Set(map_name)];
+console.log(name_new);
+
+
+ 
     
 
 
